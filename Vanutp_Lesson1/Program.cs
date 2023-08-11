@@ -3,5 +3,10 @@
     private static void Main(string[] args)
     {
         Console.WriteLine("Hello, World!");
+        Console.WriteLine("What is your name?");
+        string name = Console.Read().ToString();
+        Console.Write(" - name");
+
+        Console.ReadLine();
     }
 }
